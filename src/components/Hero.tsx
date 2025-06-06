@@ -15,7 +15,14 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <button className="bg-purple-600 text-white px-8 py-4 rounded-xl hover:bg-purple-700 transition-all transform hover:scale-105 font-medium text-lg">
+            <button
+              className="bg-purple-600 text-white px-8 py-4 rounded-xl hover:bg-purple-700 transition-all transform hover:scale-105 font-medium text-lg"
+              onClick={() =>
+                document
+                  .getElementById("calculator-modal")
+                  ?.classList.add("active")
+              }
+            >
               Рассчитать стоимость
             </button>
             <button className="border-2 border-purple-600 text-purple-600 px-8 py-4 rounded-xl hover:bg-purple-600 hover:text-white transition-all font-medium text-lg">

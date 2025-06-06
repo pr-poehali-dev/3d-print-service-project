@@ -10,27 +10,29 @@ const Footer = () => {
               <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-lg flex items-center justify-center">
                 <Icon name="Box" size={20} className="text-white" />
               </div>
-              <span className="text-2xl font-bold font-rubik">3DPrintPro</span>
+              <span className="text-2xl font-bold font-rubik">
+                ИП Тишинский Константин
+              </span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
-              Профессиональные услуги 3D печати в Москве. Высокое качество,
-              доступные цены, быстрые сроки.
+              Услуги 3D печати в Москве. Высокое качество, доступные цены,
+              быстрые сроки.
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://t.me/konstantintishinskiy"
                 className="bg-gray-800 p-3 rounded-lg hover:bg-purple-600 transition-colors"
               >
                 <Icon name="Send" size={20} />
               </a>
               <a
-                href="#"
+                href="https://wa.me/79165552293"
                 className="bg-gray-800 p-3 rounded-lg hover:bg-purple-600 transition-colors"
               >
                 <Icon name="MessageCircle" size={20} />
               </a>
               <a
-                href="#"
+                href="https://vk.com/id375113410"
                 className="bg-gray-800 p-3 rounded-lg hover:bg-purple-600 transition-colors"
               >
                 <Icon name="Users" size={20} />
@@ -69,11 +71,11 @@ const Footer = () => {
             <div className="space-y-3 text-gray-400">
               <div className="flex items-center space-x-3">
                 <Icon name="Phone" size={16} />
-                <span>+7 (123) 456-78-90</span>
+                <span>+7 (916) 555-22-93</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Icon name="Mail" size={16} />
-                <span>info@3dprintpro.ru</span>
+                <span>ishinskiy.k.v@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Icon name="MapPin" size={16} />
@@ -84,7 +86,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-          <p>© 2024 3DPrintPro. Все права защищены</p>
+          <p>© 2025 ИП Тишинский Константин. Все права защищены</p>
         </div>
       </div>
     </footer>

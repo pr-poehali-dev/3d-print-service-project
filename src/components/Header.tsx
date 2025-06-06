@@ -13,7 +13,7 @@ const Header = () => {
               <Icon name="Box" size={20} className="text-white" />
             </div>
             <span className="text-2xl font-bold text-gray-900 font-rubik">
-              3DPrintPro
+              ИП Тишинский Константин
             </span>
           </div>
 
